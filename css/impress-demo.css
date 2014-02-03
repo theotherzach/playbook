@@ -428,7 +428,6 @@ main-title {
 }
 
 #dependencies {
-    width: 600px;
 }
 
 #dependencies .dependencies {
@@ -571,6 +570,12 @@ main-title {
 
 */
 #overview { display: none }
+.overview { display: none }
+
+.impress-on-dependency-overview .step {
+  opacity: 1;
+}
+
 
 /*
     We also make other steps visible and give them a pointer cursor using the
@@ -581,6 +586,9 @@ main-title {
     cursor: pointer;
 }
 
+.impress-on-overview .step .overview-fade {
+  opacity: 0.2;
+}
 
 /*
     Now, when we have all the steps styled let's give users a hint how to navigate
