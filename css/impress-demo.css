@@ -84,14 +84,15 @@ table {
 body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
+    color: white;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: rgb(39, 37, 38);
+    /* background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190))); */
+    /* background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190)); */
+    /* background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190)); */
+    /* background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190)); */
+    /* background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190)); */
+    /* background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190)); */
 }
 
 /*
@@ -180,6 +181,22 @@ a:focus {
     line-height: 1.5;
 }
 
+/* header */
+
+main-title {
+  margin: auto;
+  font-size: 80px;
+}
+
+.center {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
 /*
     ... and we enhance the styles for impress.js.
 
@@ -207,7 +224,7 @@ a:focus {
     They cover everything what you see on first three steps of the demo.
 */
 .slide {
-    display: block;
+    display: flex;
 
     width: 900px;
     height: 700px;
@@ -218,13 +235,19 @@ a:focus {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
-    color: rgb(102, 102, 102);
+    color: rgb(39, 37, 38);
+    /* color: rgb(102, 102, 102); */
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+}
+
+
+.section-title {
+  background-color: rgb(110, 255, 0);
 }
 
 .slide q {
@@ -254,7 +277,7 @@ a:focus {
     padding: 0;
 }
 
-#title .try {
+#title .lead {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
@@ -269,6 +292,7 @@ a:focus {
 
 #title h1 {
     font-size: 190px;
+    color: rgb(110, 255, 0);
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -277,8 +301,8 @@ a:focus {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
-    font-size: 32px;
+#title .end {
+    font-size: 64px;
 }
 
 /*
@@ -290,19 +314,23 @@ a:focus {
 #big {
     width: 600px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1;
 }
 
 #big b {
     display: block;
-    font-size: 250px;
-    line-height: 250px;
+    font-size: 150px;
+    line-height: 200px;
 }
 
 #big .thoughts {
-    font-size: 90px;
-    line-height: 150px;
+    font-size: 40px;
+    line-height: 110px;
+}
+
+#big .maintainer {
+  font-size: 100px;
 }
 
 /*
