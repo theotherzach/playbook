@@ -262,6 +262,10 @@ main-title {
     white-space: nowrap;
 }
 
+.green {
+  color: rgb(110, 255, 0);
+}
+
 /*
     And now we start to style each step separately.
 
@@ -424,7 +428,6 @@ main-title {
 }
 
 #dependencies {
-    color: rgb(110, 255, 0);
     width: 600px;
 }
 
@@ -458,7 +461,7 @@ main-title {
 }
 
 .impress-enabled .future {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .impress-enabled .past {
