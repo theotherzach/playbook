@@ -406,15 +406,16 @@ main-title {
 }
 
 /*
-    The 'imagination' step is again some boring font-sizing.
+    The 'flexible' step is again some boring font-sizing.
 */
 
-#imagination {
+#flexible {
     width: 600px;
 }
 
-#imagination .imagination {
-    font-size: 78px;
+#flexible .flexible {
+    color: rgb(110, 255, 0);
+    font-size: 100px;
 }
 
 /*
@@ -441,6 +442,8 @@ main-title {
     font-size: 60px;
 }
 
+.black-slide {
+}
 /*
     And the "it's in 3D" step again brings some 3D typography - just for fun.
 
