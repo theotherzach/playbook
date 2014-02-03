@@ -120,7 +120,7 @@
         It will not be rotated or scaled.
         
     -->
-    <div id="step-1" class="step slide" data-x="-1000" data-y="-1500">
+    <div id="step-1" class="step slide" data-x="-5000" data-y="-1500">
         <main-title>JavaScript Playbook</main-title>
     </div>
 
@@ -139,11 +139,11 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
-    <div class="step slide" data-x="0" data-y="-1500">
+    <div id="slide-2" class="step slide" data-x="-4000" data-y="-1500">
         <main-title>Test Double</main-title>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
+    <div id="slide-3" class="step slide" data-x="-3000" data-y="-1500">
         <main-title>We &lt;3 JavaScript</main-title>
     </div>
     <!--
@@ -156,8 +156,8 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <p>Who do we work</p>
+    <div id="title" class="step" data-x="0" data-y="-1000" data-z="-3000" data-scale="5">
+        <p>Who do we code</p>
         <span class="for large">for</span><span class="large overview-fade">?</span>
     </div>
 
@@ -211,9 +211,9 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="flexible" class="step" data-x="2000" data-y="800" data-scale="8">
-        <p class="flexible">flexible</p>
-        <p>code</p>
+    <div id="flexible" class="step" data-x="2000" data-y="800" data-scale="4">
+        <p class="flexible green">flexible</p>
+        <p class="green">code</p>
     </div>
 
     <div id="sussman" class="step black-slide" data-x="400" data-y="1000" data-z="-90" data-rotate-x="-40">
@@ -271,6 +271,9 @@
     <div id="io-dependencies" class="step black-slide" data-x="4300" data-y="4800" data-z="-5000" data-scale="6">
       <p>IO</p>
     </div>
+    <div id="io-knowledge" class="step black-slide" data-x="4300" data-y="5300" data-z="-5000" data-scale="6">
+      <p>knowledge</p>
+    </div>
 
 
     <div id="dependency-overview" class="step overview" data-x="4300" data-y="3300" data-z="-5000" data-scale="8">
@@ -285,8 +288,38 @@
       <p class="green">Tests Can Enforce Modularity</p>
     </div>
 
-    <div id="modularity-lies" class="step" data-x="5600" data-y="3000" data-z="-9090" data-rotate="300" data-scale="1">
+    <div id="modularity-lies" class="step" data-x="5600" data-y="3000" data-z="-11090" data-rotate="300" data-scale="1">
       <p class="green">Anybody Who Tells You They Have This Figured Out Is Selling Something</p>
+    </div>
+
+    <div id="flexibility-overview" class="step overview" data-x="2000" data-y="2300" data-scale="6">
+    </div>
+
+    <!-- READABLE -->
+
+
+    <div id="readable" class="step" data-x="2500" data-y="-1300" data-z="1000" data-scale="4">
+        <span class="readable green">readable</span>
+        <span class="green">code</span>
+    </div>
+
+    <div id="readable-language" class="step black-slide" data-x="1300" data-y="-1000" data-z="800" data-rotate-x="-40">
+      <p>Code must communicate as clearly as natural language</p>
+    </div>
+
+    <div id="will-language" class="step black-slide" data-x="2300" data-y="-1000" data-z="800" data-rotate-x="-40">
+      <p>class WestSideStory extends RomeoAndJuliet</p>
+    </div>
+
+
+    <div id="bets-language" class="step black-slide" data-x="1800" data-y="-700" data-z="250" data-rotate-x="-40">
+      <p>The readability of your code is unknowable until the reading happens.</p>
+      <p>But we can make bets.</p>
+    </div>
+
+    <div id="context" class="step black-slide" data-x="5800" data-y="-1000" data-z="1000" data-scale="4">
+      <p class="green">reduce</p>
+      <p class="green context"><b>contextual overhead</b></p>
     </div>
 
     <!--

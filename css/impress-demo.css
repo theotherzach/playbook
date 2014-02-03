@@ -418,22 +418,25 @@ main-title {
     The 'flexible' step is again some boring font-sizing.
 */
 
-#flexible {
-    color: rgb(110, 255, 0);
-    width: 600px;
+.flexible {
+    font-size: 140px;
+    line-height: 180px;
 }
 
-#flexible .flexible {
+
+.readable {
+    font-size: 140px;
+    line-height: 180px;
+}
+
+.dependencies {
     font-size: 100px;
 }
 
-#dependencies {
+.context {
+    font-size: 80px;
+    line-height: 100px;
 }
-
-#dependencies .dependencies {
-    font-size: 100px;
-}
-
 
 /*
     There is nothing really special about 'use the source, Luke' step, too,
@@ -459,13 +462,13 @@ main-title {
     font-size: 60px;
 }
 
-.impress-enabled .future {
-  opacity: 0.1;
-}
+/* .impress-enabled .future { */
+/*   opacity: 0.1; */
+/* } */
 
-.impress-enabled .past {
-  opacity: 0.2;
-}
+/* .impress-enabled .past { */
+/*   opacity: 0.2; */
+/* } */
 /*
     And the "it's in 3D" step again brings some 3D typography - just for fun.
 
@@ -576,6 +579,25 @@ main-title {
   opacity: 1;
 }
 
+.impress-on-flexibility-overview .step {
+  opacity: 1;
+}
+
+.impress-on-flexibility-overview .step .overview-fade {
+  opacity: 0.3;
+}
+
+.impress-on-step-1 #title {
+  display: none;
+}
+
+.impress-on-slide-2 #title {
+  display: none;
+}
+
+.impress-on-slide-3 #title {
+  opacity: 0;
+}
 
 /*
     We also make other steps visible and give them a pointer cursor using the
@@ -587,7 +609,7 @@ main-title {
 }
 
 .impress-on-overview .step .overview-fade {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 /*
