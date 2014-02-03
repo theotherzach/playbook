@@ -301,8 +301,13 @@ main-title {
     transform:         translateZ(50px);
 }
 
-#title .end {
-    font-size: 64px;
+#title .for {
+    color: rgb(110, 255, 0);
+    font-size: 94px;
+}
+
+#title .large {
+    font-size: 94px;
 }
 
 /*
@@ -410,13 +415,23 @@ main-title {
 */
 
 #flexible {
+    color: rgb(110, 255, 0);
     width: 600px;
 }
 
 #flexible .flexible {
-    color: rgb(110, 255, 0);
     font-size: 100px;
 }
+
+#dependencies {
+    /* color: rgb(110, 255, 0); */
+    width: 600px;
+}
+
+#dependencies .dependencies {
+    font-size: 100px;
+}
+
 
 /*
     There is nothing really special about 'use the source, Luke' step, too,
@@ -442,7 +457,12 @@ main-title {
     font-size: 60px;
 }
 
-.black-slide {
+.impress-enabled .future {
+  opacity: 0.2;
+}
+
+.impress-enabled .past {
+  opacity: 0.2;
 }
 /*
     And the "it's in 3D" step again brings some 3D typography - just for fun.
