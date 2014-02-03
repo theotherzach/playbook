@@ -583,6 +583,10 @@ main-title {
   opacity: 1;
 }
 
+.impress-on-context-overview .step {
+  opacity: 1;
+}
+
 .impress-on-flexibility-overview .step .overview-fade {
   opacity: 0.3;
 }
