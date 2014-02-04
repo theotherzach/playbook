@@ -462,13 +462,13 @@ main-title {
     font-size: 60px;
 }
 
-/* .impress-enabled .future { */
-/*   opacity: 0.1; */
-/* } */
+.impress-enabled .future {
+  opacity: 0.1;
+}
 
-/* .impress-enabled .past { */
-/*   opacity: 0.2; */
-/* } */
+.impress-enabled .past {
+  opacity: 0.1;
+}
 /*
     And the "it's in 3D" step again brings some 3D typography - just for fun.
 
